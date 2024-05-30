@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- first we will make form then we will make form tag action is used to link one page to another -->
+
+<form action="images.html" method="get">
+      <!-- now we will use label as place holder and give input to iake from the user for and id is used 
+    as in label to liunk each other  -->
+    <label for="usernames">User Name:  </label>
+   <input type="text" name="usernames" id="usernames" placeholder="User Name" required><br><br>
+
+    <label for="pass">Password :</label>
+    <input type="password" name="pass" id="pass" placeholder="Password" required> <br><br>
+
+    <label for="mail"> Email: </label>
+    <input type="email" name="mail" id="mail" placeholder="Email" required><br><br>
+
+    <p>Select your gender</p>
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="gender">
+
+    <label for="gender">Female</label>
+    <input type="radio" name="gender" id="gender">
+    
+    <label for="gender">Other</label>
+    <input type="radio" name="gender" id="gender"><br><br>
+
+
+      <!-- making dropdown list  -->
+      <label for="country">Country</label>
+      <select name="country" id="country">
+          <option value="Pakistan">Pakistan</option>
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+      </select><br><br>
+     
+     <!-- text area  -->
+      <p>write about your self</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea><br>
+    
+    
+    
+
+    <input type="submit" value="signin">
+
+</form>
+</body>
+</html>
